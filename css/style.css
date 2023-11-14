@@ -1,0 +1,506 @@
+/*ここからheader*/
+li a {
+    text-decoration: none;
+    color: gray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+}
+
+.img__header-logo {
+    width: 100%;
+}
+
+.img__header-logo img {
+    width: 15%;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+/*ここからfirstview*/
+.firstview {
+    position: relative;
+}
+
+.firstview__img img {
+    margin: 0 0 0 auto;
+    display: block;
+    width: 60%;
+}
+
+.firstview__content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.firstview__content span {
+    color: mediumturquoise;
+}
+
+.firstview__content-ttl {
+    font-size: 70px;
+    max-width: 700px;
+    color: mediumvioletred;
+    font-family: 'Indie Flower', cursive;
+    margin: 10px 0 60px 0;
+    line-height: 100px
+}
+
+.firstview__content-subttl {
+    font-size: 26px;
+    font-weight: bold;
+    color: mediumvioletred;
+    margin-bottom: 10px;
+}
+
+.firstview__content-text {
+    font-size: 18px;
+    color: gray;
+    max-width: 300px;
+    line-height: 30px;
+}
+
+/*ここからnews*/
+.news {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.news__ttl {
+    font-family: 'Indie Flower', cursive;
+    color: mediumvioletred;
+    font-size: 18px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+}
+
+.news__subttl {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.news__info {
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    padding: 30px 0 30px;
+    margin-bottom: 70px;
+}
+
+.news__info dl {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    color: gray;
+}
+
+.news__info dt {
+    padding: 10px 0;
+}
+
+.news__info dd {
+    padding: 10px 0;
+}
+
+.info__category {
+    color: white;
+    padding: 0 12px;
+    margin: 0 12px;
+    background-color: mediumvioletred;
+    border-radius: 30px;
+}
+
+/*ここからabout*/
+.container__about {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.about {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about__ttl {
+    font-family: 'Indie Flower', cursive;
+    color: mediumvioletred;
+    font-size: 18px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about__subttl {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about__subttl span {
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+.about__content {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.about__img img {
+    width: 400px;
+    display: flex;
+}
+
+.about__text {
+    color: gray;
+    line-height: 20px;
+}
+
+.about__text p {
+    margin: 0 30% 40px 0;
+}
+
+/*ここからService*/
+
+.service {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.service__ttl {
+    font-family: 'Indie Flower', cursive;
+    color: mediumvioletred;
+    font-size: 18px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.service__subttl {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.service__content {
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.service__left {
+    width: 50%;
+    background-color: mediumvioletred;
+}
+
+.service__img {
+    text-align: center;
+}
+
+.service__img img {
+    width: 150px;
+    padding: 50px 0 10px;
+}
+
+.service__content-ttl {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service__content-text {
+    color: white;
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 26px;
+    padding-bottom: 70px;
+}
+
+.service__right {
+    width: 50%;
+    height: 100%;
+}
+
+.service__right-top {
+    width: 100%;
+    height: 50%;
+    background-color: mediumpurple;
+    display: flex;
+    align-items: center;
+}
+
+.service__right-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+}
+
+.service__right-img img {
+    width: 150px;
+    padding: 30px 5px;
+}
+
+.service__right-textbox {
+    color: white;
+}
+
+.service__right-ttl {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service__right-text {
+    max-width: 90%;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+
+/*ここからblog*/
+.container__blog {
+    width: 100%;
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+}
+
+.blog {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.blog__ttl {
+    font-family: 'Indie Flower', cursive;
+    color: mediumvioletred;
+    font-size: 18px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.blog__subttl {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.blog__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__card {
+    width: 30%;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+
+.card__left {
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: mediumvioletred;
+    padding: 10px 20px;
+    border-radius: 20px 0 0 0;
+}
+
+.card__img img {
+    width: 100%;
+    height: 40%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card__content {
+    padding: 15px 20px;
+}
+
+.card__ttl {
+    font-size: 18px;
+    margin: 10px 0 40px;
+    font-weight: bold;
+    line-height: 28px;
+    color: gray;
+}
+
+.card__deta {
+    display: inline-block;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.card__tag {
+    display: inline-block;
+    color: gray;
+    padding-bottom: 10px;
+    margin-left: 60px;
+}
+
+.blog__more {
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 50px auto 0;
+    padding: 20px 15px;
+    background-color: white;
+    color: mediumvioletred;
+    border: 2px solid mediumvioletred;
+    border-radius: 30px;
+}
+
+/*ここからcompany*/
+.company {
+    width: 100%;
+}
+
+.company__info {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.company__ttl {
+    font-family: 'Indie Flower', cursive;
+    color: mediumvioletred;
+    font-size: 18px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+}
+
+.company__subttl {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+table th {
+    width: 20%;
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+th,
+td {
+    border: solid 2px #ccccccd7;
+    padding: 20px 15px;
+    color: gray;
+}
+
+.company__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company__footer-left {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    background-image: url("../img/recruit.png");
+    background-size: cover;
+}
+
+.company__footer-left p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.company__footer-right {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    background-image: url("../img/interview.png");
+    background-size: cover;
+}
+
+.company__footer-right p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/*ここからcontact*/
+.contact {
+    width: 100%;
+    text-align: center;
+}
+
+.contact__text {
+    margin: 70px auto 0;
+    font-size: 24px;
+    color: gray;
+}
+
+.contact__line {
+    width: 1px;
+    border-left: solid 2px mediumvioletred;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+
+.contact__btn {
+    position: relative;
+    background: linear-gradient(90deg, #e3127e, rgb(183, 14, 118));
+    width: 200px;
+    display: block;
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 100px;
+    margin: 0 auto;
+    box-shadow: 0 8px 0 rgb(155, 11, 100);
+}
+
+.contact__btn::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    background: url(../img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translate(-30%);
+}
+
+small {
+    display: block;
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 25px 0;
+    margin-top: 50px;
+    color: gray;
+}
