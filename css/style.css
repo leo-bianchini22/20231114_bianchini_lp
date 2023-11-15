@@ -341,17 +341,19 @@ header {
     color: gray;
 }
 
+.card__text{
+    display: flex;
+    justify-content: space-between;
+}
+
 .card__deta {
-    display: inline-block;
     color: gray;
     padding-bottom: 10px;
 }
 
 .card__tag {
-    display: inline-block;
     color: gray;
     padding-bottom: 10px;
-    margin-left: 60px;
 }
 
 .blog__more {
