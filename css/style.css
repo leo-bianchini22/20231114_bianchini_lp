@@ -344,6 +344,7 @@ header {
 .card__text{
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
 }
 
 .card__deta {
